@@ -1,3 +1,34 @@
+# Crud_partidos
+
+## Getting Started
+
+1. **Create Database Tables:**
+   Run the following command to migrate your database tables:
+   ```bash
+   php artisan migrate
+   
+*** Execute the Application:
+Start the Laravel development server:
+    php artisan serve
+    
+*** Check List of All Routes:
+To view a list of all routes defined in your application, use the following command: 
+    php artisan route:list
+    
+*** Clear Route Cache:
+If you make changes to your routes and need to clear the route cache, use:
+    php artisan route:clear
+    
+*** Clear View Cache:
+To clear the cached views, run:
+    php artisan view:clear
+
+Make sure to replace "Your Laravel Application" with the actual name of your application. This guide provides a clear set of instructions for someone to set up and run your Laravel application locally.
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
