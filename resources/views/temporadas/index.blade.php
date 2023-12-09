@@ -53,7 +53,7 @@
 <body>
 
     <!-- include navbar -->
-    @include('temporadas.navbar')
+    @include('header.navbar')
 
     <div class="custom-list">
         <h1>Lista de Temporadas: </h1>

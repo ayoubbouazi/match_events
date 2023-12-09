@@ -60,7 +60,7 @@
 </head>
 <body>
 
-@include('temporadas.navbar')
+@include('header.navbar')
 
 <div class="container mt-5 w-50">
     <h1>Crear Nuevo Partido</h1>

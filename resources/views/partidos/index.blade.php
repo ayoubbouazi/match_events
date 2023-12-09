@@ -92,7 +92,7 @@
     </head>
     <body>
 
-        @include('temporadas.navbar')
+        @include('header.navbar')
 
         <div class="">
             <h1>
