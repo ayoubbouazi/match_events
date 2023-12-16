@@ -11,6 +11,7 @@
            body {
             padding: 20px;
             background-color: #f2f2f2;
+            margin-top:2rem;
         }
 
             h1 {

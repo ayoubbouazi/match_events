@@ -11,16 +11,10 @@ class TemporadaControllers extends Controller
 // This function is for listing all temporadas ordered by id
     public function index()
 {
-    $temporadas = Temporada::all();
+    $temporadas = Temporada::orderBy('ano_inicio', 'asc')->get();
     return view('temporadas.index', compact('temporadas'));
 }
 
-// This function is for listing all temporadas ordered by ano_inicio
-  public function temporadas()
-{
-    $temporadas = Temporada::orderBy('ano_inicio')->get();
-    return view('temporadas.index', compact('temporadas'));
-}
 
 // This function is for creating a new temporada
 public function create()

@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\http\Controllers\RouteControllers;
-use App\http\Controllers\PartidoControllers;
-use App\http\Controllers\TemporadaControllers;
+use App\Http\Controllers\RouteControllers;
+use App\Http\Controllers\PartidoControllers;
+use App\Http\Controllers\TemporadaControllers;
 use App\Http\Controllers\AuthController;
 /*
 |--------------------------------------------------------------------------
